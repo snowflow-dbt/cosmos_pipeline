@@ -7,7 +7,10 @@ authors = [
     { name = "vaibhav6600", email = "patilvaibhav6600@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "dbt-core>=1.12.5",
+    "dbt-snowflake>=1.12.1",
+]
 
 [project.scripts]
 cosmos-pipeline = "cosmos_pipeline:main"
