@@ -1,0 +1,8 @@
+sources:
+  - name: staging
+    database: COSMOS_PIPELINE
+    schema: STAGING_SCHEMA
+    tables: 
+      - name: bookings
+      - name: listings
+      - name: hosts
